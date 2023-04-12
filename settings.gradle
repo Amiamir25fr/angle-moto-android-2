@@ -1,0 +1,16 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+    }
+}
+dependencyResolutionManagement {
+        repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "moto 3"
+include ':app'
